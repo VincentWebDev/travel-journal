@@ -29,10 +29,15 @@ h2 {
   margin-bottom: 15px;
   letter-spacing: 0.03rem;
 }
-.card-container {
-  max-width: 800px;
 
-  margin: 40px;
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 840px;
+}
+
+.card-container {
+  margin: 35px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,6 +74,7 @@ section {
 .location-container a {
   color: #918e9b;
   font-size: 0.6rem;
+  text-wrap: nowrap;
 }
 
 .date {
@@ -79,16 +85,17 @@ section {
 .description {
   font-size: 0.85rem;
   line-height: 130%;
-  font-weight: 300;
 }
 
 hr {
   border: 0;
-  clear: both;
-  max-width: 800px;
-  margin: 0 40px 0 40px;
-  background-color: rgb(230, 230, 230);
+  width: 800px;
+  background-color: rgb(203, 203, 203);
   height: 0.1rem;
+}
+
+.container:nth-child(3) hr {
+  display: none;
 }
 
 @media only screen and (max-width: 850px) {

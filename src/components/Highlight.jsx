@@ -4,7 +4,7 @@ import pin from "../assets/pin.svg";
 
 export default function Highlight(props) {
   return (
-    <div>
+    <div className="container">
       <div className="card-container">
         <img src={props.image} alt="travel destination" />
         <section>
